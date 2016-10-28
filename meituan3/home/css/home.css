@@ -82,6 +82,7 @@ a{
 .container .wrap{
 	 width: 200%;
 	 display: flex;
+	 transition: all .5s;
 }
 .container .home-ul1{
 	width: 50%;

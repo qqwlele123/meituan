@@ -98,6 +98,7 @@ div.nearby .content{
 div.nearby .content .contented{
   width: 400%;
   overflow: hidden;
+  transition: all .5s;
 }
 div.nearby .content .contented .wrap-1{
   width: 25%;
