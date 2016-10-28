@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ body{
+	background-color: #f1f1f1;
+} 
+
+/* 头部 */
+.set-header{
+	background-color: white;
+    width: 100%;
+    padding: .6rem 0;
+    border-bottom: solid 1px #ccc; 
+}
+
+.set-header a{
+	text-decoration: none;
+	font-size: 1.4rem;
+	color: black;
+	margin-left: 5%
+}
+.set-header p{
+	display: inline-block;
+	margin-left: 12%;
+}
+
+/* ul */
+ul{
+	list-style: none;
+}
+.set1{
+	width: 100%;
+}
+.set1 li{
+	width: 100%;
+	padding: 1.4rem 0;
+	background-color: white;
+}
+.set1 li:first-child{
+	margin-top: .6rem;
+}
+.set1 li:last-child{
+	margin: .6rem 0;
+}
+.set1 li p{
+    float: left;
+    margin-left: 5%;
+}
+.set1 li span{
+	float: right;
+	margin-right: 5%;
+}
+
+
+
+/* weibu */
+.set-footer{
+	width: 90%;
+	background-color: white;
+	height: 2.4rem;
+	font-size: 1.2rem;
+	margin:0 auto;
+}
+.set-footer p{
+	line-height: 2.4rem;
+	text-align: center;
+}

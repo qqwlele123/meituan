@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+   font-size: 14px;
+   background-color: #F4F4F4;
+}
+#city header{
+   height: 4rem;
+   background-color: #FAFAFA;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   border-bottom: 1px solid #ccc;
+}
+#city header img{
+   width: 1.4rem;
+   height: 1.4rem;
+   margin: 1.3rem;
+}
+#city header section{
+   border: 1px solid #06C0AB;
+   width: 50%;
+   height: 2.6rem;
+   margin-left: 3.2rem;
+   border-radius: 5px;
+}
+#city header section ul{
+  height: 2.6rem;
+  list-style: none;
+  display: flex;
+}
+#city header section ul li{
+   width: 50%;
+   height: 2.6rem;
+   color:  #06C0AB;
+   text-align: center;
+   line-height: 2.6rem;
+}
+#city header section ul li:first-child{
+   background-color: #06C0AB;
+   color: white;
+}
+/*搜索城市*/
+#city .sousuo{
+   height: 4rem;
+   background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     border-bottom: 1px solid #ccc;ssssss
+}
+#city .sousuo section{
+   width: 90%;
+   height: 2.6rem;
+   background-color: #E6E6E6;
+   display: flex;
+   border-radius: 5px;
+}
+#city .sousuo section img{
+   width: 1.5rem;
+   height: 1.4rem;
+   margin: .6rem .4rem;;
+}
+#city .sousuo section input{
+   border: none;
+   outline: none;
+   width: 80%;
+   background-color: #E6E6E6;
+}
+/*当前位置*/
+#city .address{
+   height: 4.4rem;
+   background-color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+#city .address p{
+   margin-left: 1.3rem;
+}
+#city .address span{
+   color: #BDBDBD;
+   margin-right: 2rem;
+   font-weight: bold;
+}
+/*当前定位城市*/
+#city .nowCity,#city .visited{
+   height: 7rem;
+ }
+#city .nowCity p,#city .visited p,#city .hotDoor p{
+   margin: 1rem 0 .7rem 1.3rem;
+   color: #999999;
+}
+#city .nowCity div,#city .visited ul li,#city .hotDoor ul li{
+   width: 7rem;
+   height: 3.2rem;
+   background-color: white;
+   text-align: center;
+   line-height: 3.2rem;
+   margin-left: 1.3rem;
+   border-radius: 10px;
+}
+/*最近访问的城市*/
+#city .hotDoor{
+  height: 20rem;
+  border-bottom: 1px solid #ccc;
+}
+#city .visited ul{
+   height: 3.2rem;
+   list-style: none;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+#city .hotDoor ul{
+   height: 16rem;
+   list-style: none;
+   display: flex;
+   justify-content: flex-start;;
+   align-items: center;
+   flex-wrap: wrap;
+}

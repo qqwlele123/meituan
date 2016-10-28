@@ -1,0 +1,126 @@
+<div class="nearby">
+   <!-- 头部 -->
+     <header>
+        <div class="left">
+             <img src="../../nearby/imgs/01.png" alt="" />
+             <p>北京</p>
+             <img src="../../nearby/imgs/02.png" alt="" />
+        </div>
+        <div class="right">
+              <img src="../../nearby/imgs/03.png" alt="" />
+              <input type="text" placeholder="找附近的吃喝玩乐">
+        </div>
+     </header>
+<div class="content">
+     <section class="header">
+       <ul>
+           <li>享美食</li>
+           <li>住酒店</li>
+           <li>爱玩乐</li>
+           <li>全部</li>
+       </ul>
+     </section>
+     <!-- 热门 -->
+<div class="contented">
+  <div class="wrap-1">
+     <div class="hot">
+         <ul>
+              <li ng-click="click($index)" ng-repeat="value in list">{{ value }}</li>
+              <!-- <li>小吃快餐</li>
+              <li>面包甜点</li>
+              <li>川菜</li>
+              <li>北京菜</li>
+              <li>东北菜</li>
+              <li>韩国料理</li>
+              <li>江浙菜</li> -->
+         </ul>
+     </div>
+
+      <div class="shop" ng-repeat="data in data">
+          <img ng-src="{{ data.img }}" alt="" class="specall"/>
+         <div class="name">
+             <div class="one">
+                  <section class="line-1">
+                       <h2>{{ data.name }}</h2>
+                       <span>外</span>
+                  </section>
+                  <section class="line-2">
+                       <img src="../../nearby/imgs/06.jpg" alt="">
+                       <p>￥{{ data.price }} / 人</p>
+                  </section>
+                  <section class="line-3">
+                       <p>{{ data.market }} | {{ data.address }}</p>
+                       <span>{{ data.distance }}m</span>
+                  </section>
+                  <section class="line-4">
+                        <img src="../../nearby/imgs/05.png" alt="">
+                        <p>{{ data.number }}人消费</p>
+                  </section>
+             </div>
+             <div class="two">
+                 <span>券</span>
+                 <p>{{ data.sale }}</p>
+             </div>
+         </div>
+      </div>
+
+
+
+
+
+        </div>
+        <div class="wrap-2">
+                <div class="hot">
+                    <ul>
+                         <li>热门</li>
+                         <li>商务出行</li>
+                         <li>品牌连锁</li>
+                         <li>公寓民宿</li>
+                         <li>客栈青旅</li>
+                         <li>情侣专享</li>
+                         <li>高星特惠</li>
+
+                    </ul>
+                </div>
+                <div class="room" ng-repeat="data in data2">
+                     <img ng-src="{{  data.img  }}" alt="" />
+                     <section>
+                         <h3>{{ data.name }}</h3>
+                         <p class="p-1">￥{{ data.price }} / 人</p>
+                         <p class="p-2">{{ data.type }} | {{ data.address }} <span>{{ data.distance }}m</span></p>
+                         <div>
+                            <img src="../../nearby/imgs/05.png" alt="" class="pp1" / >
+                            <p>{{ data.number }}人消费</p>
+                         </div>
+                         <p class="p-3"><span>订</span>{{ data.ding }}</p>
+                          <p class="p-4"><span>团</span>{{ data.tuan }}</p>
+                           <p class="p-5"><img src="../../nearby/imgs/05.png"  class="pp1" alt="" />{{ data.rated }}</p>
+                     </section>
+                </div>
+
+
+
+        </div>
+        <div class="wrap-3">
+            <div class="hot">
+                <ul>
+                     <li>热门</li>
+                     <li>KTV</li>
+                     <li>足疗按摩</li>
+                     <li>洗浴汗蒸</li>
+                     <li>电影院</li>
+                     <li>美发</li>
+                     <li>美甲</li>
+                     <li>桌游/电玩</li>
+                </ul>
+            </div>
+              <!-- <img src="../../nearby/imgs/14-03_02.png" alt="" /> -->
+        </div>
+        <div class="wrap-4">
+
+        </div>
+    </div>
+ </div>
+
+</div>
+</div>

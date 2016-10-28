@@ -1,0 +1,112 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+/*头部*/
+html{
+   font-size: 14px;
+}
+.recommend header{
+   height: 4rem;
+   background-color: #FAFAFA;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+.recommend header img{
+   width: 1.4rem;
+   height: 1.4rem;
+   margin: 1rem;
+}
+.recommend .morning{
+   height: 4rem;
+   background-color: #06C0AB;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.recommend .morning p{
+   color: white;
+   margin: 1rem ;
+}
+.recommend .morning section{
+   width: 20%;
+   height: 2rem;
+   background-color: #07A898;
+   border-radius: .9rem;
+   margin-right: 1rem;
+   text-align: center;
+   line-height: 2rem;
+}
+.recommend .morning section span{
+   color: white;
+}
+/*推荐*/
+.recommend .free{
+   height: 14rem;
+   border-bottom: 1px solid #ccc;
+}
+.recommend .free ul{
+  width: 92%;
+  height: 14rem;
+  margin: 1.2rem;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.recommend .free ul li{
+   width: 48%;
+   height: 7rem;
+   margin-right: 2%;
+}
+.recommend .free ul li img{
+   width: 100%;
+   border-radius: 5px;
+}
+/*商家*/
+.recommend .seller{
+   list-style: none;
+}
+.recommend .seller li{
+   height: 10rem;
+   border-bottom: 1px solid #ccc;
+   display: flex;
+   justify-content: flex-start;
+}
+.recommend .seller li img{
+   width: 35%;
+   height: 8rem;
+   margin: 1rem;
+}
+.recommend .seller li div{
+   height: 8rem;
+   margin: 1rem .6rem 0 0;
+   /*border: 1px solid black;*/
+}
+.recommend .seller li div section{
+   display: flex;
+   margin: .7rem 0;
+}
+.recommend .seller li div .mm1{
+   justify-content: space-between;
+}
+.recommend .seller li div .mm1 span{
+   color: #949494;
+   font-weight: bold;
+}
+.recommend .seller li div .mm3{
+   justify-content: space-between;
+   height: 24px;
+   line-height: 24px;
+}
+.recommend .seller li div .mm3 p{
+   flex-grow: 1;
+   margin-left: .7rem;
+   color: #949494;
+   font-weight: bold;
+}
+.recommend .seller li div .mm3 span{
+   color: #949494;
+   font-weight: bold;
+}

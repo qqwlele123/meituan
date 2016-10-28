@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+   font-size: 14px;
+   background-color: #EEEEEE;
+}
+#search header{
+   height: 4rem;
+   background-color: #FAFAFA;
+   border-bottom: 1px solid #ccc;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+#search header img{
+   width: 1.6rem;
+   height: 1.6rem;
+}
+#search header section{
+   width: 70%;
+   height: 2.6rem;
+   background: #E6E6E6;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   border-radius: 5px;
+}
+#search header section img{
+   margin-left: .5rem;
+}
+#search header section input{
+   border: none;
+   width: 65%;
+   background-color: #E6E6E6;
+   outline: none;
+}
+/*热门搜索*/
+#search .zz1{
+   height: 3.5rem;
+   line-height: 3.5rem;
+   margin: 1rem 0 .6rem .9rem;
+   color: #949494;
+}
+#search .hotSearch{
+   height: 7rem;
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   background-color: white;
+}
+#search .hotSearch li{
+   width: 33%;
+   height: 2.3rem;
+   border-right: 1px solid #ccc;
+   border-bottom: 1px solid #ccc;
+   text-align: center;
+   line-height: 2.3rem;
+}
+#search .hotSearch li a{
+   text-decoration: none;
+   color: black;
+}
+/*历史搜索*/
+#search .zz2{
+  height: 3.5rem;
+  line-height: 3.5rem;
+  margin: 1rem 0 .6rem .9rem;
+  color: #949494;
+}
+#search .history{
+   height: 12.4rem;
+   background-color: white;
+   list-style: none;
+}
+#search .history li{
+   height: 3rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 1px solid #ccc;
+}
+#search .history li img{
+   width: 1.4rem;
+   height: 1.4rem;
+   margin: 1rem;
+}
+#search .history li p{
+   flex-grow: 1;
+}

@@ -1,0 +1,169 @@
+*{
+	margin:0;
+	padding: 0;
+}
+html{
+	 font-size: 14px;
+}
+/* 固定区域 */
+ul{
+	list-style: none;
+	font-size: 1.2px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.mine-header1{
+	z-index: 1;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	background-color: #06c0ab;
+	height: 4rem;
+}
+ .mine-header1 .set{
+	position: absolute;
+	top: 1.6rem;
+	right: 25%;
+	width: 1.2rem;
+	height: 1rem;
+}
+.mine-header1 .set img{
+	width: 1.2rem;
+}
+.mine-header1 .message{
+	position: absolute;
+	top: 1.65rem;
+	right: 11%;
+	width: 1rem;
+}
+.mine-header1 .message img{
+	width: 1rem;
+}
+/* 头部 */
+.mine-header2::before{
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 4rem;
+}
+.mine-header2{
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	background-color:  #06c0ab;
+	height: 12rem;
+	color: white;
+}
+.mine-header2 div{
+	height: 4rem;
+	width: 4rem;
+	border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	left: 5%;
+	top: 4.5rem;
+}
+.mine-header2 h3{
+	position: absolute;
+	top: 4.9rem;
+	left: 26%;
+}
+.mine-header2 p{
+	position: absolute;
+	top: 6.5rem;
+	left: 26%;
+	font-size: 1rem;
+}
+.mine-header2 img{
+	width: 1rem;
+	position: absolute;
+	left: 59%;
+	top: 5.1rem;
+
+}
+.mine-header2 ul{
+	display: flex;
+	justify-content:  space-around;
+	margin-top: 5.2rem;
+	border-top: dashed white 1px;
+	padding: .6rem;
+}
+/* 我的订单  */
+.mine-order{
+	display: flex;
+	justify-content:  space-between;
+	padding: 1rem;
+	border-bottom: solid 1px rgba(0,0,0,.2);
+}
+.mine-order img{
+	width: 1rem;
+	height: 1rem;
+}
+.mine-ul1{
+	display: flex;
+	justify-content:  space-around;
+	padding: 1.1rem;
+	border-bottom: solid .5rem rgba(0,0,0,.2);
+}
+.mine-ul1 a{
+	text-decoration: none;
+	color: black;
+}
+.mine-ul1 li div{
+	width: 2rem;
+	height: 2rem;
+	margin-left: 20%;
+	margin-bottom: 1rem;
+}
+.mine-ul1 li div img{
+	width: 2rem;
+	height: 2rem;
+}
+/* 我的钱包 */
+.mine-ul2{
+    width: 100%;
+}
+.mine-ul2 li{
+	width: 100%;
+	padding: 1.2rem 0 ;
+}
+.mine-ul2 li div{
+	width: 1rem;
+	height: 1rem;
+	background-color: blue;
+	display: inline-block;
+	margin-left: 5%;
+}
+.mine-ul2 li div img{
+	width: 1rem;
+	height: 1rem;
+}
+.mine-ul2 li p{
+	display: inline-block;
+	margin-left: .5rem;
+	vertical-align: top;
+	font-size: .9rem;
+	color: #212121;
+}
+.mine-ul2 li span{
+	float: right;
+	margin-right: 5%;
+	font-size: .8rem;
+	color: #999;
+}
+.mine-ul2 li:nth-child(4n){
+	border-bottom: solid .6rem rgba(0,0,0,.3);
+}
+
+
+
+/* 留白 */
+.mine-footer::after{
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 4rem;
+}

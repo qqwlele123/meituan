@@ -1,0 +1,344 @@
+{
+    "data": [
+        {
+            "name": "达美乐披萨",
+            "market_price": "56",
+            "price": "49.9",
+            "sell": "12238",
+            "money": "5元",
+            "address": "昌平区",
+            "img": "http://fuss10.elemecdn.com/e/d1/0106ce084d7db1c459f757988dec7jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/"
+        },
+        {
+          "name": "必胜宅急送",
+          "market_price": "52",
+          "price": "45",
+          "sell": "7532",
+          "money": "10元",
+          "address": "回龙观",
+          "img": "http://fuss10.elemecdn.com/3/0d/90c91aafa37de8ec0488c731c2deejpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/"
+        },
+        {
+          "name": "棒约翰",
+          "market_price": "49",
+          "price": "41",
+          "sell": "1223",
+          "money": "8元",
+          "address": "西三旗",
+          "img": "http://fuss10.elemecdn.com/5/b1/b6a7e7d294eda56685c9043d8427djpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/"
+        },
+        {
+          "name": "蝎王府羊蝎子",
+          "market_price": "88",
+          "price": "68",
+          "sell": "2238",
+          "money": "5元",
+          "address": "西三旗",
+          "img": "http://fuss10.elemecdn.com/c/5c/b9b7ca5fb3ce5e16286ee8def3544png.png?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/"
+        },
+        {
+          "name": "黄焖鸡Plus",
+          "market_price": "20",
+          "price": "16",
+          "sell": "11538",
+          "money": "6元",
+          "address": "西三旗旧货市场",
+          "img": "http://fuss10.elemecdn.com/a/f3/bb2ffb19727e6c95cccae5824e573jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/"
+        },
+        {
+          "name": "满座儿",
+          "market_price": "39",
+          "price": "29",
+          "sell": "4967",
+          "money": "9元",
+          "address": "物美大卖场",
+          "img": "http://fuss10.elemecdn.com/f/1a/1796d0ea182344213d666e2f169b3jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/"
+        },
+        {
+          "name": "小火慢炖",
+          "market_price": "27",
+          "price": "22",
+          "sell": "738",
+          "money": "5元",
+          "address": "西三旗",
+          "img": "http://fuss10.elemecdn.com/a/88/7c8f4bfcb8df493433059c72dc4depng.png?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/"
+        },
+        {
+          "name": "田老师红烧肉",
+          "market_price": "17",
+          "price": "14",
+          "sell": "6642",
+          "money": "0元",
+          "address": "龙旗广场",
+          "img": "http://fuss10.elemecdn.com/f/8c/a0243ff6b05f952b127524b5bf99ajpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/"
+        },
+        {
+          "name": "亚米苔盐酥鸡",
+          "market_price": "19.9",
+          "price": "15",
+          "sell": "12238",
+          "money": "3元",
+          "address": "昌平区",
+          "img": "http://fuss10.elemecdn.com/9/2a/ac7504b345bac8cbf9772c7ca6d4dpng.png?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/"
+        }
+      ],
+      "record": [
+        {
+          "name": "大清花(西三旗店)",
+          "market": "东北菜",
+          "number": "2384",
+          "price": "22",
+          "distance": "149",
+          "address": "回龙观",
+          "sale": "50代60",
+          "img": "http://fuss10.elemecdn.com/e/6e/9f350fbc1ef20096bd277353c261epng.png?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/"
+        },
+        {
+          "name": "焦耳·川式快餐",
+          "market": "四川菜",
+          "number": "371",
+          "price": "19.9",
+          "distance": "286",
+          "address": "回龙观",
+          "sale": "60代80",
+          "img": "http://fuss10.elemecdn.com/1/e9/3ff8421a343c20b8b33e02a18ba44png.png?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/"
+        },
+        {
+          "name": "北京麦当劳文化路餐厅",
+          "market": "快餐",
+          "number": "3084",
+          "price": "45",
+          "distance": "219",
+          "address": "文化路",
+          "sale": "90代100",
+          "img": "http://fuss10.elemecdn.com/1/32/c75a72f674052473fb35b5c8ab1d7jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/"
+        },
+        {
+          "name": "东北人家(西三旗店)",
+          "market": "东北菜",
+          "number": "3212",
+          "price": "30",
+          "distance": "379",
+          "address": "西三旗",
+          "sale": "50代60",
+          "img": "http://fuss10.elemecdn.com/e/43/21b289c77cc9d34081abdc031d335jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/"
+        },
+        {
+          "name": "鲁香缘黄焖鸡",
+          "market": "主食",
+          "number": "1196",
+          "price": "19",
+          "distance": "500",
+          "address": "西三旗",
+          "sale": "20代30",
+          "img": "http://fuss10.elemecdn.com/7/d8/d500ace740569a03833e77faa8114jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/"
+        },
+        {
+          "name": "到家东北菜",
+          "market": "东北菜",
+          "number": "289",
+          "price": "25",
+          "distance": "600",
+          "address": "回龙观",
+          "sale": "20代25",
+          "img": "http://fuss10.elemecdn.com/9/5f/14e4d9fb95ba94792ca6abe79c23cpng.png?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/"
+        },
+        {
+          "name": "好嫂子",
+          "market": "豫菜",
+          "number": "364",
+          "price": "33",
+          "distance": "650",
+          "address": "西三旗",
+          "sale": "70代80",
+          "img": "http://fuss10.elemecdn.com/d/cf/9db1e289babd94533c83c75f7e39bjpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/"
+        },
+        {
+          "name": "嘉和一品",
+          "market": "鲁菜",
+          "number": "2384",
+          "price": "152",
+          "distance": "1000",
+          "address": "西三旗",
+          "sale": "190代200",
+          "img": "http://fuss10.elemecdn.com/2/b4/d5d73fba11e535074dbdbbbf3bf4ejpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/"
+        },
+        {
+          "name": "冒菜麻辣烫",
+          "market": "麻辣烫",
+          "number": "384",
+          "price": "15",
+          "distance": "1100",
+          "address": "回龙观",
+          "sale": "20代25",
+          "img": "http://fuss10.elemecdn.com/1/ee/ebdbe3addf35fc05677c5cca9e3c3jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/"
+        }
+      ],
+      "movie":[
+        {
+           "name": "保利国际影城(龙旗广场店)",
+           "distance": "0.4km",
+           "money": "28.9起",
+           "xiaochi": "小吃"
+        },
+        {
+           "name": "沃美影城(回龙观)",
+           "distance": "1.2km",
+           "money": "3.9起",
+           "xiaochi": "小吃"
+        },
+        {
+           "name": "金逸影城(新都店)",
+           "distance": "1.7km",
+           "money": "19.9起",
+           "xiaochi": "改签"
+        },
+        {
+           "name": "大地影城(西三旗物美店)",
+           "distance": "2.0km",
+           "money": "27.9起",
+           "xiaochi": "折扣卡"
+        },
+        {
+           "name": "星美国际影城(回龙观店)",
+           "distance": "2.7km",
+           "money": "14起",
+           "xiaochi": "小吃"
+        },
+        {
+           "name": "新华国际影城(宝盛店)",
+           "distance": "3.6km",
+           "money": "22.9起",
+           "xiaochi": "折扣卡"
+        },
+        {
+           "name": "CGV星汇影城(清河店)",
+           "distance": "3.8km",
+           "money": "48.9起",
+           "xiaochi": "改签"
+        },
+        {
+           "name": "橙天嘉禾影城(上地店)",
+           "distance": "4.9km",
+           "money": "24.4起",
+           "xiaochi": "4K厅"
+        },
+        {
+           "name": "万达国际影城(龙德广场店)",
+           "distance": "5.9km",
+           "money": "32.9起",
+           "xiaochi": "IMAX厅"
+        }
+      ],
+      "room":[
+        {
+           "name": "陆陆顺宾馆" ,
+           "price": "138" ,
+           "type": "经济酒店" ,
+           "address": "回龙观" ,
+           "number": "481" ,
+           "ding": "大床房、特价单人间等3种房型" ,
+           "tuan": "普通大床房" ,
+           "rated": "服务热情，价格实惠",
+           "distance": "157",
+           "img": "http://img010.hc360.cn/y2/M01/D9/A9/wKhQdFSXiJaEL2TYAAAAAFI0Q2Q089.jpg"
+        },
+        {
+           "name": "鑫百汇上午快捷酒店" ,
+           "price": "188" ,
+           "type": "经济酒店" ,
+           "address": "回龙观" ,
+           "number": "539" ,
+           "ding": "标准大床房、标准双床房等2种房型" ,
+           "tuan": "大床房、双床房等4种房型" ,
+           "rated": "服务热情，环境优雅",
+           "distance" : "220",
+           "img":"http://image6.huangye88.com/2013/09/13/dc4da3296f431f32.jpg"
+        },
+        {
+           "name": "北京欢迎你" ,
+           "price": "129" ,
+           "type": "经济酒店" ,
+           "address": "回龙观" ,
+           "number": "93" ,
+           "ding": "男生床位上铺、男生下铺等" ,
+           "tuan": "男生床位下铺" ,
+           "rated": "味道赞，服务热情",
+           "distance" : "480",
+           "img":"http://i1.ymfile.com/uploads/product/04/21/x1_1.1366539373_670_494_82820.jpg"
+        },
+        {
+           "name": "陆陆顺宾馆" ,
+           "price": "138" ,
+           "type": "经济酒店" ,
+           "address": "回龙观" ,
+           "number": "481" ,
+           "ding": "大床房、特价单人间等3种房型" ,
+           "tuan": "普通大床房" ,
+           "rated": "服务热情，价格实惠",
+           "distance" : "590",
+           "img":"http://images4.c-ctrip.com/target/t1/tuangou/704/337/559/fb27674510dd4f2cbc6aa888ea8b9310_720_480.jpg"
+        },
+        {
+           "name": "一一宾馆" ,
+           "price": "219" ,
+           "type": "经济酒店" ,
+           "address": "西三旗" ,
+           "number": "1045" ,
+           "ding": "【美团力荐】豪华双人房" ,
+           "tuan": "【美团力荐】豪华大床房" ,
+           "rated": "服务热情，味道赞",
+           "distance" : "770",
+           "img":"http://image.gojiaju.com/userfile/shuangyong/images/products/24136_1.JPG"
+        },
+        {
+           "name": "麦穗宾馆" ,
+           "price": "158" ,
+           "type": "经济酒店" ,
+           "address": "回龙观" ,
+           "number": "1388" ,
+           "ding": "商务套房、商务三人间" ,
+           "tuan": "商务双床房" ,
+           "rated": "服务热情，价格实惠",
+           "distance" : "800",
+           "img":"http://file26.mafengwo.net/M00/45/E5/wKgB4lNAXzqATcskAABujW_HNDg98.rbook_comment.w1024.jpeg"
+        },
+        {
+           "name": "速8酒店" ,
+           "price": "138" ,
+           "type": "经济酒店" ,
+           "address": "西三旗" ,
+           "number": "965" ,
+           "ding": "经济大床房、高级三人间" ,
+           "tuan": "商务大床房等三选一" ,
+           "rated": "服务热情，味道赞",
+           "distance" : "920",
+           "img":"http://img02.saifutong.com/20151013/201510130216029271.PNG"
+        },
+        {
+           "name": "富驿商旅宾馆" ,
+           "price": "85" ,
+           "type": "经济酒店" ,
+           "address": "西三旗" ,
+           "number": "775" ,
+           "ding": "舒适大床房、时尚大床房等3种房型" ,
+           "tuan": "时尚大床房" ,
+           "rated": "服务热情，价格实惠",
+           "distance" : "1050",
+           "img":"http://image6.huangye88.com/2014/03/08/706e8572453bbcbd.jpg"
+        },
+        {
+           "name": "艺欣意招待所" ,
+           "price": "108" ,
+           "type": "经济酒店" ,
+           "address": "西三旗" ,
+           "number": "154" ,
+           "ding": "大床房、特价房等2种房型" ,
+           "tuan": "大床房" ,
+           "rated": "服务热情，味道赞",
+           "distance" : "1220",
+           "img":"http://img10.cn.gcimg.net/gcproduct/day_20150314/4d66e62e768183d96eaec0b301b7d764.jpg"
+        }
+      ]
+
+}

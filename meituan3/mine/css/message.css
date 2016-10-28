@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ body{
+	background-color:#f1f1f1;
+}
+
+/* 头部 */
+.message-header{
+    width: 100%;
+    padding: .6rem 0;
+    border-bottom: solid 1px #ccc;
+    background-color: #f1f1f1;
+}
+.message-header a{
+	text-decoration: none;
+	font-size: 1.4rem;
+	color: black;
+	margin-left: 5%
+}
+.message-header p{
+	display: inline-block;
+	margin-left: 12%;
+}
+
+/* ul */
+ul{
+	list-style: none;
+	background-color: white;
+}
+.message1{
+	width: 100%;
+}
+.message1 li{
+	width: 100%;
+  height: 6rem;
+}
+.message1 li div:first-child{
+     width: 20%;
+     height: 6rem;
+     float: left;
+}
+.message1 li div:first-child img{
+	width: 3.6rem;
+	margin:.6rem 0 0 .2rem;
+}
+.message1 li div:nth-child(2){
+	padding: .5rem 0;
+}
+.message1 li div:last-child{
+	 width: 80%;
+	 height: 5rem;
+     float: left;
+     border-top: solid 1px #888;
+     padding: .5rem 0;
+}
+.message1 li  span{
+	float: right;
+	margin-right: 3%;
+	margin-top: -1.2rem;
+}
+.message1 li h3{
+    margin-left: .1rem;
+}
+.message1 li p{
+	font-size: .8rem;
+	margin: .6rem .9rem 0 0.1rem;
+	line-height: 1.2rem;
+	color: #666;
+}

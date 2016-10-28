@@ -1,0 +1,105 @@
+
+        <!-- 头部 -->
+        <div id="movie">
+             <header>
+                <a href="#home"><img src="../home/imgs/111.png" alt="" /></a>
+                <section>
+                     <ul>
+                         <li>
+                           <p>热映</p>
+                         </li>
+                         <li>
+                            <p>待映</p>
+                         </li>
+                         <li>
+                            <p>商城</p>
+                         </li>
+                     </ul>
+                </section>
+                <img src="../home/imgs/03.png" alt="" />
+             </header>
+
+       <!-- 轮播图 -->
+       <div class="swiper-container">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide">
+              	<img src="../home/imgs/11.jpg"/>
+              </div>
+              <div class="swiper-slide">
+              	<img src="../home/imgs/qq1.jpg"/>
+              </div>
+              <div class="swiper-slide">
+              	<img src="../home/imgs/qq2.jpg"/>
+              </div>
+
+         </div>
+		    <!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div>
+
+    </div>
+        <!-- 热映影片 -->
+        <div class="hotMovie">
+             <section>
+                <p>热映影片</p>
+                <span>查看全部 ></span>
+             </section>
+             <ul>
+                <li>
+                  <img src="../home/imgs/xx1.jpg" alt="" />
+                  <p>机械师2</p>
+                </li>
+                <li>
+                  <img src="../home/imgs/xx2.jpg" alt="" />
+                  <p>湄公河行动</p>
+                </li>
+                <li>
+                  <img src="../home/imgs/xx3.jpg" alt="" />
+                  <p>侠探杰克</p>
+                </li>
+                <li>
+                  <img src="../home/imgs/xx4.jpg" alt="" />
+                  <p>惊天破</p>
+                </li>
+             </ul>
+        </div>
+        <!-- 猫眼头条 -->
+        <div class="cat">
+            <a href="#">猫眼头条</a>
+            <p>今日实时票房4244.0万，点击查看</p>
+        </div>
+
+        <!-- 电影院 -->
+        <div class="movieCity">
+             <ul class="first">
+                <li>品牌</li>
+                <li>全城</li>
+                <li>离我最近</li>
+                <li>特色</li>
+             </ul>
+             <ul class="second">
+                 <!-- <li>
+                     <section class="one">
+                         <h3></h3>
+                         <span></span>
+                     </section>
+                     <h4><span>座</span></h4>
+                      <section class="two">
+                          <span>惠</span>
+                          <p></p>
+                      </section>
+                 </li> -->
+                 <li ng-repeat="data in data">
+                   <section class="one">
+                       <h3>{{ data.name }}</h3>
+                       <span>{{ data.distance }}</span>
+                   </section>
+                   <div>
+                      <p>{{ data.money }}</p>
+                      <span class="qq1">座</span>
+                      <span class="qq2">杜比全境声厅</span>
+                      <span class="qq3">{{ data.xiaochi }}</span>
+                   </div>
+                 </li>
+             </ul>
+        </div>
+  </div>

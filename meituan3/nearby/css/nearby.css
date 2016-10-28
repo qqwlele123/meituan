@@ -1,0 +1,328 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+html{
+   font-size: 14px;
+   background: #F2F2F2;
+   overflow: auto;
+}
+div.nearby header{
+   height: 4.2rem;
+   border-bottom: 1px solid #ccc;
+   display: flex;
+   font-size: 1rem;
+   line-height: 4.2rem;
+}
+div.nearby header img{
+    width: 1.4rem;
+    height: 1.4rem;
+}
+div.nearby header .left{
+    width: 35%;
+    height: 4.2rem;
+    text-align: center;
+    display: flex;
+    position: relative;
+}
+div.nearby header .left img:first-child{
+    position: absolute;
+    height: 1.8rem;
+    top: 1.3rem;
+    left: 2rem;
+}
+div.nearby header .left img:last-child{
+   position: absolute;
+   top: 1.35rem;
+   right: .5rem;
+}
+div.nearby header .left p{
+   position: absolute;
+   font-size: 1.3rem;
+   top: .1rem;
+   left: 4.1rem;
+}
+div.nearby header .right{
+    width: 59%;
+    height: 3rem;
+    background-color: #E6E6E6;
+    position: relative;
+    display: flex;
+    margin-top: .5rem;
+}
+div.nearby header .right img{
+    width: 1.6rem;
+    position: absolute;
+    top: .7rem;
+    left: 2rem;
+}
+div.nearby header .right input{
+  width: 10rem;
+  height: 2.8rem;
+  position: absolute;
+  top: .2rem;
+  left: 4.4rem;
+  border: none;
+  background-color:  #E6E6E6;
+  outline: none;
+}
+
+
+div.nearby .header{
+   height: 4.2rem;
+   background: white;
+   font-size: 1.2rem;
+}
+div.nearby .header ul{
+   list-style: none;
+   height: 4.2rem;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+div.nearby .header ul li{
+   flex-grow: 1;
+   height: 4.2rem;
+   line-height: 4.2rem;
+   text-align: center;
+}
+div.nearby .header ul li.active{
+   color: #FF8AA6;
+   border-bottom: 4px solid #FE8798;
+}
+div.nearby .content{
+   width: 100%;
+   height: 80%;
+   overflow: hidden;
+}
+div.nearby .content .contented{
+  width: 400%;
+  overflow: hidden;
+}
+div.nearby .content .contented .wrap-1{
+  width: 25%;
+  float: left;
+}
+div.nearby .content .contented .wrap-2{
+  width: 25%;
+  float: left;
+  /*font-size: .8rem;*/
+}
+div.nearby .content .contented .wrap-2 .room{
+   height: 12rem;
+   background: white;
+   display: flex;
+   margin-bottom: .5rem;
+   border-bottom: 1px solid #ccc;
+}
+div.nearby .content .contented .wrap-2 .room img:first-child{
+   width: 30%;
+   height: 7rem;
+}
+div.nearby .content .contented .wrap-2 .room section{
+   width: 65%;
+   height: 12rem;
+   margin-left: 5%;
+
+}
+div.nearby .content .contented .wrap-2 .room section .pp1{
+   width: 1.4rem;
+   height: 1.4rem;
+}
+div.nearby .content .contented .wrap-2 .room section .p-1{
+   color: #808080;
+}
+div.nearby .content .contented .wrap-2 .room section div{
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  height: 2rem;
+}
+div.nearby .content .contented .wrap-2 .room section .p-2{
+  color: #818181;
+  /*font-weight: bold;*/
+}
+div.nearby .content .contented .wrap-2 .room section .p-2 span{
+  display: inline-block;
+  width: 2rem;
+  height: 1.4rem;
+  background-color: #F2F2F2;
+  color: #939393;
+  text-align: center;
+  line-height: 1.4rem;
+  margin-left: 30%;
+}
+div.nearby .content .contented .wrap-2 .room section .p-3{
+   margin-top: .6rem;
+   margin-bottom: .4rem;
+   color: #808080;
+}
+div.nearby .content .contented .wrap-2 .room section .p-3 span{
+   display: inline-block;
+   width: 1.5rem;
+   height: 1.5rem;
+   background-color: #FF6270;
+   color: white;
+   text-align: center;
+   line-height: 1.5rem;
+   margin-right: .2rem;
+}
+div.nearby .content .contented .wrap-2 .room section .p-4{
+  margin-top: .6rem;
+  margin-bottom: .4rem;
+  color: #808080;
+}
+div.nearby .content .contented .wrap-2 .room section .p-4 span{
+   display: inline-block;
+   width: 1.5rem;
+   height: 1.5rem;
+   background-color: #41C5BD;
+   color: white;
+   text-align: center;
+   line-height: 1.5rem;
+   margin-right: .2rem;
+}
+div.nearby .content .contented .wrap-2 .room section .p-5{
+  display: flex;
+}
+
+div.nearby .content .contented .wrap-3{
+  width: 25%;
+  float: left;
+}
+div.nearby .content .contented .wrap-3 img{
+  width: 100%;
+}
+div.nearby .content .contented .wrap-4{
+  width: 25%;
+  float: left;
+}
+/*热门*/
+div.nearby .hot{
+    height: 9rem;
+}
+div.nearby .hot ul{
+   height: 8rem;
+   list-style: none;
+   display: flex;
+   justify-content: flex-start;;
+   flex-wrap: wrap;
+   margin-top: 1rem;
+}
+div.nearby .hot ul li{
+   width: 22%;
+   height: 2.5rem;
+   border-radius: 1.2rem;
+   border: 1px solid #ccc;
+   text-align: center;
+   line-height: 2.5rem;
+   background-color: white;
+   color: #9F9F9F;
+   margin-right: 2%;
+}
+div.nearby .hot ul li.item{
+  background: #FF576E;
+  color: #fff;
+}
+
+/*商品*/
+div.nearby .shop{
+   height: 11rem;
+   background-color: white;
+   display: flex;
+   justify-content: flex-start;
+   border-bottom: 1px solid #ccc;
+   margin-bottom: .4rem;
+}
+div.nearby .shop .specall{
+   width: 7rem;
+   height: 7rem;
+}
+div.nearby .name{
+   margin-left: 2rem;
+
+}
+div.nearby .shop .one{
+   width: 220px;
+   height: 8rem;
+   border-bottom: 1px solid #ccc;
+}
+div.nearby .shop .one section{
+   display: flex;
+}
+div.nearby .shop .one .line-1{
+   margin-top: .6rem;
+}
+div.nearby .shop .one .line-1 h2{
+   font-size: 1.2rem;
+}
+div.nearby .shop .one .line-1 span{
+   display: inline-block;
+   background-color: #F56720;
+   width: 1.8rem;
+   text-align: center;
+   line-height: 21px;
+   margin-left: .8rem;
+   color: white;
+   font-weight: 600;
+}
+div.nearby .shop .one .line-2{
+   margin: .2rem 0 1rem 0;
+}
+div.nearby .shop .one .line-2 img{
+   width: 6.5rem;
+   height: 1.2rem;
+}
+div.nearby .shop .one .line-2 p{
+   color: #808080;
+   margin-left: .5rem;
+   font-weight: 600;
+   font-size: 1.1rem;
+}
+div.nearby .shop .one .line-3{
+   margin: .6rem 0 .4rem 0;
+   display: flex;
+   justify-content: space-between;
+}
+div.nearby .shop .one .line-3 p{
+   font-size: 1.2rem;
+   color: #818181;
+}
+div.nearby .shop .one .line-3 span{
+   display: inline-block;
+   width: 2.6rem;
+   height: 1.3rem;
+   background-color: #F2F2F2;
+   color: #818181;
+   text-align: center;
+   line-height: 1.3rem;
+}
+div.nearby .shop .one .line-4{
+   display: flex;
+}
+div.nearby .shop .one .line-4 img{
+   width: 1.5rem;
+   height: 1.5rem;
+}
+div.nearby .shop .one .line-4 p{
+   color: black;
+   font-size: 1.2rem;
+}
+div.nearby .shop .two{
+   display: flex;
+   margin-top: .4rem;
+}
+div.nearby .shop .two span{
+   display: inline-block;
+   width: 1.6rem;
+   height: 1.6rem;
+   background-color: #2CCEB9;
+   text-align: center;
+   line-height: 1.6rem;
+   color: white;
+}
+div.nearby .shop .two p{
+   color: #616161;
+   margin-left: .6rem;
+   font-size: 1.2rem;
+   margin-top: .1rem;
+}

@@ -1,0 +1,234 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+html{
+   font-size: 14px;
+   background-color: #F0F0F0;
+}
+#movie header{
+   height: 4rem;
+   border-bottom: 1px solid black;
+   display: flex;
+   justify-content: space-between;
+   background-color: #FAFAFA;
+}
+#movie header img{
+   width: 1.6rem;
+   height: 1.6rem;
+   margin: 1.1rem 1.2rem;
+}
+#movie header section{
+   width: 50%;
+   height: 70%;
+   align-self: center;
+   margin-left: -1.6rem;
+}
+#movie header section ul{
+   list-style: none;
+   width: 210px;
+   height: 40px;
+   border: 1px solid #06C0AB;
+   display: flex;
+   justify-content: space-between;
+   border-radius: 5px;
+}
+#movie header section ul li{
+   width: 69px;
+   height: 40px;
+   text-align: center;
+   line-height: 40px;
+   border-right: 1px solid #06C0AB;
+   color: #06C0AB;
+}
+#movie header section ul li:first-child{
+   background-color: #06C0AB;
+   color: white;
+}
+#movie header section ul li:last-child{
+   border-right: none;
+}
+/*轮播图*/
+#movie .swiper-container{
+   height: 10rem;
+}
+#movie .swiper-container .swiper-wrapper .swiper-slide img{
+   width: 100%;
+   height: 10rem;
+}
+/*热映影片*/
+#movie .hotMovie{
+    height: 14rem;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+}
+#movie .hotMovie section{
+   height: 3rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+#movie .hotMovie section p{
+   margin-left: 1rem;
+}
+#movie .hotMovie section span{
+   margin-right: 1rem;
+   color: #9E9E9E;
+}
+#movie .hotMovie ul{
+   width: 100%;
+   height: 12rem;
+   list-style: none;
+   overflow: hidden;
+}
+#movie .hotMovie ul li{
+   width: 25%;
+   float: left;
+   height: 12rem;
+}
+#movie .hotMovie ul li img{
+   width: 90px;
+   height: 9rem;
+}
+#movie .hotMovie ul li p{
+   text-align: center;
+   margin-top: .6rem;
+}
+/*猫眼头条*/
+#movie .cat{
+   height: 2.8rem;
+   background-color: white;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   margin-top: 1rem;
+}
+#movie .cat a{
+   text-decoration: none;
+   font-size: 1.2rem;
+   color: #FF4B55;
+   font-weight: bolder;
+   border-right: 1px solid #ccc;
+   margin: .6rem .4rem;
+   padding: .2rem;
+}
+#movie .cat p{
+   font-size: .8rem;
+   color: #666666;
+   margin-left: .2rem;
+}
+/*影城*/
+ #movie .movieCity{
+    height: 57rem;
+    background-color: white;
+    margin-top: .8rem;
+ }
+ #movie .movieCity .first{
+   height: 2.5rem;
+   border-bottom: 1px solid #ccc;
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+#movie .movieCity .first li{
+   width: 23%;
+   border-right: 1px solid #ccc;
+   text-align: center;
+}
+#movie .movieCity .first li:last-child{
+   border-right: none;
+}
+#movie .movieCity .second{
+   height: 12.5rem;
+   list-style: none;
+}
+#movie .movieCity .second li{
+  width: 95%;
+  margin: 0 2.5%;
+   height: 6rem;
+   border-bottom: 1px solid #ccc;
+}
+
+#movie .movieCity .second li h4{
+   color: #34BE9D;
+   display: flex;
+   justify-content: flex-start;
+   font-size: 1.2rem;
+   margin-top: .3rem;
+}
+#movie .movieCity .second li h4 span{
+   display: inline-block;
+   width: 1.4rem;
+   height: 1.2rem;
+   border: 1px solid #B1B3A6;
+   color: #8AA15B;
+   margin-left: .4rem;
+   font-size: .8rem;
+   text-align: center;
+   line-height: 1.2rem;
+}
+#movie .movieCity .second li .two{
+   display: flex;
+   justify-content: flex-start;
+   margin-top: .6rem;
+}
+#movie .movieCity .second li .two span{
+   display: inline-block;
+   width: 1.5rem;
+   height: 1.4rem;
+   background-color: #FF9C09;
+   color: #F8E2B0;
+   text-align: center;
+   line-height: 1.4rem;
+}
+#movie .movieCity .second li .two p{
+   color: #939393;
+   font-size: .9rem;
+   margin-left: .4rem;
+   margin-top: .3rem;
+}
+#movie .movieCity .second li div{
+   display: flex;
+   justify-content: flex-start;
+   margin-top: 1.2rem;
+}
+#movie .movieCity .second li p{
+   color: #34BE9D;
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+#movie .movieCity .second li div span{
+   display: inline-block;
+   height: 1.2rem;
+}
+#movie .movieCity .second li div .qq1{
+   width: 1.2rem;
+   border: 1px solid #8AA15B;;
+   color: #8AA15B;
+   border-radius: 3px;
+   margin-left: .4rem;
+   font-size: .6rem;
+   text-align: center;
+   line-height: 1.2rem;
+}
+#movie .movieCity .second li div .qq2{
+   width: 5.8rem;
+   border: 1px solid #8AA15B;;
+   color: #8AA15B;
+   border-radius: 3px;
+   margin-left: .4rem;
+   font-size: .6rem;
+   text-align: center;
+   line-height: 1.2rem;
+}
+#movie .movieCity .second li div .qq3{
+   /*width: 2rem;*/
+   border: 1px solid #CCAA6B;
+   color: #CCAA6B;
+   margin-left: .4rem;
+   border-radius: 3px;
+   font-size: .6rem;
+   text-align: center;
+   line-height: 1.2rem;
+}

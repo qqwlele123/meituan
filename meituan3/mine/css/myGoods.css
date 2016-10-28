@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 14px;
+  background-color: #F0F0F0;
+}
+#myGoods header{
+  height: 4rem;
+  background-color: #F9F9F9;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#myGoods header img{
+   width: 1.6rem;
+   height: 1.8rem;
+   margin: 1rem;
+}
+#myGoods header p{
+   font-size: 1.2rem;
+}
+#myGoods ul{
+   height: 4rem;
+   background-color: white;
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 1.1rem;
+}
+#myGoods ul li{
+   text-align: center;
+   width: 20%;
+   height: 4rem;
+   line-height: 4rem;
+}
+#myGoods ul li:nth-child(2){
+   font-weight: bold;
+   color: #06C1AE;
+   border-bottom: 3px solid #06C1AE;
+}
+#myGoods main section{
+   height: 16rem;
+   position: absolute;
+   top: 35%;
+   left: 32%;
+   text-align: center;
+}
+#myGoods main section img{
+   width: 10rem;
+   height: 10rem;
+}
+#myGoods main section p{
+   color: #333333;
+   font-size: 1.2rem;
+}
+#myGoods main section span{
+   color: #A3A3A3;
+   font-size: .8rem;
+   margin-top: .5rem;
+}
+#myGoods main section div{
+   width: 10rem;
+   height: 3rem;
+   border: 1px solid #06C1AE;
+   text-align: center;
+   line-height: 3rem;
+   margin-top: 1rem;
+
+}
+#myGoods main section div p{
+   color: #06C1AE;
+}
