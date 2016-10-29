@@ -107,7 +107,6 @@ div.nearby .content .contented .wrap-1{
 div.nearby .content .contented .wrap-2{
   width: 25%;
   float: left;
-  /*font-size: .8rem;*/
 }
 div.nearby .content .contented .wrap-2 .room{
    height: 12rem;
@@ -124,7 +123,6 @@ div.nearby .content .contented .wrap-2 .room section{
    width: 65%;
    height: 12rem;
    margin-left: 5%;
-
 }
 div.nearby .content .contented .wrap-2 .room section .pp1{
    width: 1.4rem;
@@ -140,7 +138,6 @@ div.nearby .content .contented .wrap-2 .room section div{
 }
 div.nearby .content .contented .wrap-2 .room section .p-2{
   color: #818181;
-  /*font-weight: bold;*/
 }
 div.nearby .content .contented .wrap-2 .room section .p-2 span{
   display: inline-block;
