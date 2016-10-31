@@ -11,6 +11,9 @@
               <input type="text" placeholder="找附近的吃喝玩乐">
         </div>
      </header>
+ <div class="backTo" ng-click="click1()">
+       <img src="../home/imgs/top.jpg" alt="" />
+ </div>
 <div class="content">
      <section class="header">
        <ul>
@@ -108,7 +111,21 @@
                      <li>桌游/电玩</li>
                 </ul>
             </div>
-              <!-- <img src="../../nearby/imgs/14-03_02.png" alt="" /> -->
+             <div class="lovePlay" ng-repeat="data in data3">
+                 <img ng-src="{{ data.img }}" alt="">
+                 <div class="rongqi">
+                   <section>
+                      <h3>{{ data.name }}</h3>
+                      <p class="p-1">{{ data.type }} | {{ data.address }} <span>{{ data.distance }}</span></p>
+                      <p class="p-2"><img src="../../nearby/imgs/05.png"  alt="" class="pp1" /> {{ data.number }}人消费</p>
+                   </section>
+                   <div>
+                      <p class="p-3"><span>团</span> {{ data.tuan }}</p>
+                   </div>
+                 </div>
+
+
+             </div>
         </div>
         <div class="wrap-4">
 

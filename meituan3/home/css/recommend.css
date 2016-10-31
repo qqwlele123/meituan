@@ -95,6 +95,9 @@ html{
    color: #949494;
    font-weight: bold;
 }
+.recommend .seller li div .mm2 p{
+   font-size: .8rem;
+}
 .recommend .seller li div .mm3{
    justify-content: space-between;
    height: 24px;
@@ -109,4 +112,7 @@ html{
 .recommend .seller li div .mm3 span{
    color: #949494;
    font-weight: bold;
+}
+.recommend .seller li div .mm3 h2{
+   color: #24B898;
 }

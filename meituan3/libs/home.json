@@ -339,6 +339,72 @@
            "distance" : "1220",
            "img":"http://img10.cn.gcimg.net/gcproduct/day_20150314/4d66e62e768183d96eaec0b301b7d764.jpg"
         }
-      ]
+      ],
+     "lovePlay": [
+        {
+           "img": "http://img.faxingw.cn/201606/cl4.png",
+           "name": "九溪造型",
+           "type": "美发",
+           "address": "西三旗",
+           "distance": "284m",
+           "number": "496",
+           "tuan":"38元必选，58元必选，188元"
+        },
+        {
+           "img": "http://p1.55tuanimg.com/static/shopimgs/2014/02/11/17/95b58f8e47c3be335d953ac5115bc3b4.jpg",
+           "name": "保利国际影院",
+           "type": "电影院",
+           "address": "回龙观",
+           "distance": "362m",
+           "number": "89309",
+           "tuan":"40元电影票一张"
+        },
+        {
+           "img": "http://img01.taopic.com/150515/267855-15051509100033.jpg",
+           "name": "云融会空手道",
+           "type": "空手道",
+           "address": "回龙观",
+           "distance": "1.0km",
+           "number": "12",
+           "tuan":"1元全接触空手道体验课程"
+        },
+        {
+           "img": "http://image6.huangye88.com/2014/03/08/706e8572453bbcbd.jpg",
+           "name": "海韵金沙商务会馆",
+           "type": "保健/按摩",
+           "address": "回龙观",
+           "distance": "1.0km",
+           "number": "1246",
+           "tuan":"88元单人太极足道1份"
+        },
+        {
+           "img": "http://hiphotos.baidu.com/lbc/pic/item/bd315c6034a85edf98f64d9e4b540923dd547510.jpg",
+           "name": "康林轩",
+           "type": "保健/按摩",
+           "address": "回龙观",
+           "distance": "1.1m",
+           "number": "596",
+           "tuan":"68元足疗套餐，138元经典套餐"
+        },
+        {
+           "img": "http://m2.quanjing.com/2m/chineseview055/405-1907.jpg",
+           "name": "玉龙轩spa会馆",
+           "type": "保健/按摩",
+           "address": "回龙观",
+           "distance": "1.1m",
+           "number": "5483",
+           "tuan":"1元拔罐1次，66.6元单人经典"
+        },
+        {
+           "img": "http://img.faxingw.cn/201606/cl4.png",
+           "name": "雨露奥幻生活馆",
+           "type": "美发",
+           "address": "回龙观",
+           "distance": "1.2km",
+           "number": "305",
+           "tuan":"23.8元必选，42元必选，68元"
+        }
+
+     ]
 
 }

@@ -9,6 +9,19 @@ html{
 a{
 	text-decoration: none;
 }
+.backTo{
+	 width: 34px;
+	 height: 40px;
+	 border-radius: 50%;
+	 background-color: white;
+	 position: fixed;
+	 right: 1rem;
+	 bottom: 10%;
+	 border: 1px solid #ccc;
+}
+.backTo img{
+	margin: 5px;
+}
 /* 头部 */
 .home-header{
 	    z-index: 1;
@@ -166,8 +179,8 @@ a{
 	float: left;
 }
 .home-longqi .longqi-l img{
-	 width: 6rem;
-	 height: 5rem;
+	 width: 100%;
+	 height: 100%;
 }
 
 .home-longqi .longqi-r{

@@ -7,6 +7,19 @@ html{
    background: #F2F2F2;
    overflow: auto;
 }
+.backTo{
+	 width: 34px;
+	 height: 40px;
+	 border-radius: 50%;
+	 background-color: white;
+	 position: fixed;
+	 right: 1rem;
+	 bottom: 10%;
+	 border: 1px solid #ccc;
+}
+.backTo img{
+	margin: 5px;
+}
 div.nearby header{
    height: 4.2rem;
    border-bottom: 1px solid #ccc;
@@ -188,7 +201,7 @@ div.nearby .content .contented .wrap-3{
   float: left;
 }
 div.nearby .content .contented .wrap-3 img{
-  width: 100%;
+  width: 30%;
 }
 div.nearby .content .contented .wrap-4{
   width: 25%;
@@ -232,7 +245,7 @@ div.nearby .shop{
    margin-bottom: .4rem;
 }
 div.nearby .shop .specall{
-   width: 7rem;
+   width: 30%;
    height: 7rem;
 }
 div.nearby .name{
@@ -323,4 +336,64 @@ div.nearby .shop .two p{
    margin-left: .6rem;
    font-size: 1.2rem;
    margin-top: .1rem;
+}
+/*爱玩乐*/
+div.nearby .wrap-3 .lovePlay{
+   height: 12rem;
+   display: flex;
+   background-color: white;
+}
+div.nearby .wrap-3 .lovePlay img{
+  height: 7rem;
+}
+div.nearby .wrap-3 .lovePlay .rongqi{
+    width: 65%;
+    margin-left: 5%;
+    height: 12rem;
+}
+div.nearby .wrap-3 .lovePlay .rongqi section{
+    height: 65%;
+    border-bottom: 1px solid #ccc;
+}
+div.nearby .wrap-3 .lovePlay .rongqi section h3{
+   margin: 1rem;
+}
+div.nearby .wrap-3 .lovePlay .rongqi section .p-1{
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+div.nearby .wrap-3 .lovePlay .rongqi section .p-1 span{
+  display: inline-block;
+  width: 2.4rem;
+  height: 1.4rem;
+  background-color: #F2F2F2;
+   color: #939393;
+   border-radius: 5px;
+   text-align: center;
+   line-height: 1.4rem;
+}
+div.nearby .wrap-3 .lovePlay .rongqi section .p-2{
+  color: #818181;
+  display: flex;
+  margin-left: 1rem;
+}
+
+div.nearby .wrap-3 .lovePlay section .pp1{
+   width: 1.4rem;
+   height: 1.4rem;
+   margin-right: .4rem;
+}
+div.nearby .wrap-3 .lovePlay .rongqi div .p-3{
+   margin-top: 1rem;
+   margin-left: 1rem;
+}
+div.nearby .wrap-3 .lovePlay .rongqi div .p-3 span{
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  background-color: #41C5BD;
+  color: white;
+   text-align: center;
+   line-height: 1.4rem;
 }

@@ -5,12 +5,14 @@ app.controller('homeCtrl', function ($css, $scope, $http) {
     if ($('#')) {
        $('nav').show()
     };
-
+    $scope.click = function(){
+        $('body,html').animate({ scrollTop: 0 }, 200);
+    }
     $http.get("http://localhost:8888/libs/home.json").success(function(data){
 
           $scope.data = data.data;
     })
-
+    
      $(function(){
             // 记录当前下标
             var index = 0;

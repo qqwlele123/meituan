@@ -7,6 +7,7 @@ app.controller("nearbyCtrl", function ($scope, $css, $http) {
 
             $scope.data = data.record;
             $scope.data2 = data.room;
+            $scope.data3 = data.lovePlay;
             $('.contented .wrap-1 .hot ul li').eq(0).addClass('item');
        });
        $scope.list = ["热门", "小吃快餐", "面包甜点", "川菜", "北京菜", "东北菜", "韩国料理", "江浙菜"]
@@ -14,7 +15,9 @@ app.controller("nearbyCtrl", function ($scope, $css, $http) {
 
           $(".contented .wrap-1 .hot ul li").removeClass('item').eq(i).addClass('item')
        }
-  
+       $scope.click1 = function(){
+          $('body, html').animate({scrollTop: 0}, 200)
+       }
        $(function () {
 
             var index = 0;
